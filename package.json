@@ -4,11 +4,10 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "run":"node index.js",
+    "run": "node index.js",
     "build": "vite build",
     "dev": "vite",
     "start": "vite preview"
-  
   },
   "keywords": [],
   "author": "parnav",
@@ -34,5 +33,8 @@
     "objectid": "^2.3.0",
     "path": "^0.12.7",
     "paypal-rest-sdk": "^1.8.1"
+  },
+  "devDependencies": {
+    "vite": "^5.4.11"
   }
 }
