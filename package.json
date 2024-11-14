@@ -4,7 +4,11 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "start":"node index.js"
+    "run":"node index.js",
+    "build": "vite build",
+    "dev": "vite",
+    "start": "vite preview"
+  
   },
   "keywords": [],
   "author": "parnav",
