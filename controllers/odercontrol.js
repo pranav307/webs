@@ -102,7 +102,7 @@ export const createOrder = async (req, res) => {
 export const capturePayment = async (req, res) => {
   try {
     const { paymentId, payerId, orderId } = req.body;
-    console.log(paymentId,payerId);
+    
 
     let order = await ordermodels.findById(orderId);
 

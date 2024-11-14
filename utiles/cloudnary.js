@@ -5,9 +5,9 @@ import multer from 'multer';
 
 
 cloudinary.config({
-    cloud_name:'dhwzghvre',
-    api_key:'289591248312399',
-    api_secret:'oMys6PJ2k3pWQqf25f8nkUKvUAY',
+    cloud_name:process.env. cloud_name,
+    api_key:process.env.api_key,
+    api_secret:process.env. api_secret,
 });
 const storage =new multer.memoryStorage();
 async function imageUploadUtil(file){
