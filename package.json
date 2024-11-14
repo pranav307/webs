@@ -4,15 +4,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-<<<<<<< HEAD
-    "start": "node index.js",
-    "dev": "vite",
-    "build": "vite build",
-    "serve": "vite preview"
-=======
-    "start": "node index.js"
- 
->>>>>>> 2861915555c0a67bf7c32939b85acff069f63127
+    "start":"node index.js"
   },
   "keywords": [],
   "author": "parnav",
