@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
   },
   "keywords": [],
   "author": "parnav",
@@ -32,7 +32,6 @@
     "nodemon": "^3.1.7",
     "objectid": "^2.3.0",
     "path": "^0.12.7",
-    "paypal-rest-sdk": "^1.8.1",
-    "react-scripts": "^3.0.1"
+    "paypal-rest-sdk": "^1.8.1"
   }
 }
