@@ -4,6 +4,7 @@ import path from "path";
 
 export default defineConfig({
    // Adjust the path if necessary
+    root: path.resolve(__dirname),
    plugins: [react()],
   server: {
     proxy: {
