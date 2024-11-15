@@ -3,13 +3,14 @@ import react from '@vitejs/plugin-react';
 import path from "path";
 
 export default defineConfig({
-  root: path.resolve(__dirname, 'amazon'), // Adjust the path if necessary
+   // Adjust the path if necessary
+   plugins: [react()],
   server: {
     proxy: {
       '/api': 'http://localhost:8000',
     },
   },
-  plugins: [react()],
+ 
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src'),
